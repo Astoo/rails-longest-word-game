@@ -1,0 +1,8 @@
+<form action="/score">
+  <%= @grid %>
+  <input type="hidden" name="start" value="<%= @start %>">
+  <imput type="hidden" value="<%= @grid %>"
+  <label for="question">Give me a word</label>
+  <input type="text" id="question" name="aword" placeholder="Is that your last word, Jean-Pierre?">
+  <input type="submit" value="Go on!">
+</form>
